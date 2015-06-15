@@ -3,16 +3,22 @@
 //  DSInsetLabel
 //
 //  Created by CocoaPods on 06/15/2015.
-//  Copyright (c) 2014 Thomas B. Jacobsen. All rights reserved.
+//  Copyright (c) 2014 Dry Singleton. All rights reserved.
 //
 
 #import "DSAppDelegate.h"
+#import "DSViewController.h"
 
 @implementation DSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [DSViewController new];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							

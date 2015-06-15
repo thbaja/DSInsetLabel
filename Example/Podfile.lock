@@ -1,0 +1,14 @@
+PODS:
+  - DSInsetLabel (0.1.0)
+
+DEPENDENCIES:
+  - DSInsetLabel (from `../`)
+
+EXTERNAL SOURCES:
+  DSInsetLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DSInsetLabel: 60fa2f8e94c523148aa23fc380ea2db72eb29ae8
+
+COCOAPODS: 0.37.2

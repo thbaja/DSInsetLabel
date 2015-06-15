@@ -1,0 +1,1012 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0401F9304CBDFE1EB7D8D653 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E14296034520E7AE6A94A8 /* Foundation.framework */; };
+		091C805B887B863042155B28 /* Pods-DSInsetLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67683D119BD92649AE557880 /* Pods-DSInsetLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1092B69EA7494E9E1C672856 /* Pods-DSInsetLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 475DDB1FEB0835AE1F1B5ACB /* Pods-DSInsetLabel_Example-dummy.m */; };
+		128B8C6A377197271C3B7C21 /* Pods-DSInsetLabel_Tests-DSInsetLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B24834F981DB22A7EBB58 /* Pods-DSInsetLabel_Tests-DSInsetLabel-dummy.m */; };
+		169DA3BB07A207698CD3B397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E14296034520E7AE6A94A8 /* Foundation.framework */; };
+		2791079D411CF6B72EA78868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E14296034520E7AE6A94A8 /* Foundation.framework */; };
+		31BB64DD18F1AED1F92528B4 /* DSInsetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32892727CE3B4A9905602D4C /* DSInsetLabel.m */; };
+		3FB57A92D70D4F7A2A3FEE42 /* DSInsetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32892727CE3B4A9905602D4C /* DSInsetLabel.m */; };
+		40A676F957469FA7C7139B9A /* DSInsetLabel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FFBB03AA6E42A4C7872E936F /* DSInsetLabel.bundle */; };
+		5DC248CE9047832502EE2D25 /* DSInsetLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A48A2956E48FAAF0507A6B /* DSInsetLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65B0B34512E9DA19C8E4A6E1 /* Pods-DSInsetLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAA1A3863FF1F9A957C05C5 /* Pods-DSInsetLabel_Tests-dummy.m */; };
+		865F7E4B27E7CAD191F22A6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E14296034520E7AE6A94A8 /* Foundation.framework */; };
+		931D783765AAE59FB1AF16D2 /* Pods-DSInsetLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8693BF9856536A15CA07005E /* Pods-DSInsetLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F6B7EB4958C62144B35DF05 /* DSInsetLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A48A2956E48FAAF0507A6B /* DSInsetLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8112E510249D88D434291B1 /* Pods-DSInsetLabel_Example-DSInsetLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FED52E0227D2156B66362BF /* Pods-DSInsetLabel_Example-DSInsetLabel-dummy.m */; };
+		C31BE71B2143EFD7CB93FDF5 /* DSInsetLabel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B92F1F7C8B35E7F92956B001 /* DSInsetLabel.bundle */; };
+		D5A6EEB96B2974CCDD27F096 /* Pods-DSInsetLabel_Tests-DSInsetLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C48489056E7B20AEFAA29F7 /* Pods-DSInsetLabel_Tests-DSInsetLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC5FBD33C7D6EDA5F6394E7E /* Pods-DSInsetLabel_Example-DSInsetLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E68B224521EC513170550E93 /* Pods-DSInsetLabel_Example-DSInsetLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		394395A50CFD73AB502C3AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47FCFA33DD2562511BA28B7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE17EE7979542E48C24DCBA2;
+			remoteInfo = "Pods-DSInsetLabel_Example-DSInsetLabel-DSInsetLabel";
+		};
+		7A2CF6FB938F0DB1CE4DFD2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47FCFA33DD2562511BA28B7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2E6CD95EEE5332707CCAD1E;
+			remoteInfo = "Pods-DSInsetLabel_Example-DSInsetLabel";
+		};
+		8708B3724F13ABF97B6BB5D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47FCFA33DD2562511BA28B7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43AABE13CFF1F15E47A33C84;
+			remoteInfo = "Pods-DSInsetLabel_Tests-DSInsetLabel-DSInsetLabel";
+		};
+		8F3FCC40EF257621C7B9FFE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47FCFA33DD2562511BA28B7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DAABF94A480003C29FF8696;
+			remoteInfo = "Pods-DSInsetLabel_Tests-DSInsetLabel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D9A1507FEDB922B4FC34A2 /* Pods-DSInsetLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DSInsetLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		0A117751DB13DD40B8C4CA61 /* Pods-DSInsetLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSInsetLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B8D7DF7A3524A944E044B94 /* Pods-DSInsetLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSInsetLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		0C48489056E7B20AEFAA29F7 /* Pods-DSInsetLabel_Tests-DSInsetLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-DSInsetLabel_Tests-DSInsetLabel-umbrella.h"; path = "../Pods-DSInsetLabel_Tests-DSInsetLabel/Pods-DSInsetLabel_Tests-DSInsetLabel-umbrella.h"; sourceTree = "<group>"; };
+		0D3B24834F981DB22A7EBB58 /* Pods-DSInsetLabel_Tests-DSInsetLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-DSInsetLabel_Tests-DSInsetLabel-dummy.m"; path = "../Pods-DSInsetLabel_Tests-DSInsetLabel/Pods-DSInsetLabel_Tests-DSInsetLabel-dummy.m"; sourceTree = "<group>"; };
+		1016A96F7059692F0965AF9F /* Pods-DSInsetLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSInsetLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		192C3BDC04369BB48DD33872 /* Pods-DSInsetLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSInsetLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2358CD325474F6FAB8A3F17C /* Pods-DSInsetLabel_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSInsetLabel_Tests-environment.h"; sourceTree = "<group>"; };
+		250BA3879F6A97B54B9C4744 /* Pods-DSInsetLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSInsetLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C32F1A52EDB83C704DCB5A6 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		32892727CE3B4A9905602D4C /* DSInsetLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DSInsetLabel.m; sourceTree = "<group>"; };
+		475DDB1FEB0835AE1F1B5ACB /* Pods-DSInsetLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSInsetLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		52A48A2956E48FAAF0507A6B /* DSInsetLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DSInsetLabel.h; sourceTree = "<group>"; };
+		5872B72FA21E564339CB26CD /* Pods-DSInsetLabel_Tests-DSInsetLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-DSInsetLabel_Tests-DSInsetLabel.modulemap"; path = "../Pods-DSInsetLabel_Tests-DSInsetLabel/Pods-DSInsetLabel_Tests-DSInsetLabel.modulemap"; sourceTree = "<group>"; };
+		5F880DCE3F9960646BB7296C /* Pods-DSInsetLabel_Example-DSInsetLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSInsetLabel_Example-DSInsetLabel.xcconfig"; sourceTree = "<group>"; };
+		67683D119BD92649AE557880 /* Pods-DSInsetLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSInsetLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6B7912A036312020ABD28226 /* Pods-DSInsetLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSInsetLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6BC20F9E4C3DCF1D5791068D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E1D0D00078901F64D2A20F9 /* Pods-DSInsetLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSInsetLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7466CA647C13F54D51426E66 /* Pods-DSInsetLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DSInsetLabel_Example.modulemap"; sourceTree = "<group>"; };
+		7FED52E0227D2156B66362BF /* Pods-DSInsetLabel_Example-DSInsetLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSInsetLabel_Example-DSInsetLabel-dummy.m"; sourceTree = "<group>"; };
+		8693BF9856536A15CA07005E /* Pods-DSInsetLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSInsetLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		8C5E82F744991B1B4B5F7993 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F3A1854B35C9FC8F27515B2 /* Pods-DSInsetLabel_Example-DSInsetLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSInsetLabel_Example-DSInsetLabel-prefix.pch"; sourceTree = "<group>"; };
+		96785ACABD7620431103B8EC /* DSInsetLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSInsetLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FEECDD79CA34EA7AE21D28 /* Pods-DSInsetLabel_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSInsetLabel_Example-environment.h"; sourceTree = "<group>"; };
+		A77BC3BA1F716B1FD22A49A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACAA1A3863FF1F9A957C05C5 /* Pods-DSInsetLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DSInsetLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		B1E14296034520E7AE6A94A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B7864A33642E0A25EF5EDED5 /* Pods-DSInsetLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSInsetLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B79E8107E13457DD279FEC6C /* Pods-DSInsetLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSInsetLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B79FDBE1370948CD999FFA60 /* Pods-DSInsetLabel_Example-DSInsetLabel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DSInsetLabel_Example-DSInsetLabel-Private.xcconfig"; sourceTree = "<group>"; };
+		B92F1F7C8B35E7F92956B001 /* DSInsetLabel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSInsetLabel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA657A7393FC61AA5B807E2A /* Pods_DSInsetLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSInsetLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC70BBD9DA9CFAE139B7B66 /* Pods-DSInsetLabel_Tests-DSInsetLabel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSInsetLabel_Tests-DSInsetLabel-Private.xcconfig"; path = "../Pods-DSInsetLabel_Tests-DSInsetLabel/Pods-DSInsetLabel_Tests-DSInsetLabel-Private.xcconfig"; sourceTree = "<group>"; };
+		C70D8151D47EC14B2D13C95A /* Pods-DSInsetLabel_Example-DSInsetLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DSInsetLabel_Example-DSInsetLabel.modulemap"; sourceTree = "<group>"; };
+		CA7D6170713D85DB25B2A082 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-DSInsetLabel_Tests-DSInsetLabel/Info.plist"; sourceTree = "<group>"; };
+		D9ACBF1514F696398CAEB8E5 /* DSInsetLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSInsetLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6882DD04B5D5FA99F766A1 /* Pods-DSInsetLabel_Tests-DSInsetLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-DSInsetLabel_Tests-DSInsetLabel-prefix.pch"; path = "../Pods-DSInsetLabel_Tests-DSInsetLabel/Pods-DSInsetLabel_Tests-DSInsetLabel-prefix.pch"; sourceTree = "<group>"; };
+		E05DC68C8C0E1736FDC0009C /* Pods-DSInsetLabel_Tests-DSInsetLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSInsetLabel_Tests-DSInsetLabel.xcconfig"; path = "../Pods-DSInsetLabel_Tests-DSInsetLabel/Pods-DSInsetLabel_Tests-DSInsetLabel.xcconfig"; sourceTree = "<group>"; };
+		E212DA6F91C9A0C3A5B021CA /* Pods-DSInsetLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSInsetLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E68B224521EC513170550E93 /* Pods-DSInsetLabel_Example-DSInsetLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DSInsetLabel_Example-DSInsetLabel-umbrella.h"; sourceTree = "<group>"; };
+		EBDFA6D5A97F21F15193A296 /* Pods-DSInsetLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DSInsetLabel_Example-resources.sh"; sourceTree = "<group>"; };
+		F1FB049EE41FEC8294754C4B /* Pods_DSInsetLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSInsetLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA60F03C84100460E9B7273E /* Pods-DSInsetLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DSInsetLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFBB03AA6E42A4C7872E936F /* DSInsetLabel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSInsetLabel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F13700FD4FC49BE343A4984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7F7548E5153B775904276F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0401F9304CBDFE1EB7D8D653 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A467AF0C0FA28ABE8DD8243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169DA3BB07A207698CD3B397 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDA5AE224682AF53F7A8340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865F7E4B27E7CAD191F22A6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00BE11EFF33512125E798B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2791079D411CF6B72EA78868 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8309237CDC053A3288F1002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0028A3F5CBDB4761ADA41061 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6D5A6D5FB9F8D7BE796497DC /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		0096035266B408DC22197432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B92F1F7C8B35E7F92956B001 /* DSInsetLabel.bundle */,
+				FFBB03AA6E42A4C7872E936F /* DSInsetLabel.bundle */,
+				96785ACABD7620431103B8EC /* DSInsetLabel.framework */,
+				D9ACBF1514F696398CAEB8E5 /* DSInsetLabel.framework */,
+				BA657A7393FC61AA5B807E2A /* Pods_DSInsetLabel_Example.framework */,
+				F1FB049EE41FEC8294754C4B /* Pods_DSInsetLabel_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0902335786367C3A25C549B9 /* Pods-DSInsetLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A77BC3BA1F716B1FD22A49A7 /* Info.plist */,
+				04D9A1507FEDB922B4FC34A2 /* Pods-DSInsetLabel_Tests.modulemap */,
+				FA60F03C84100460E9B7273E /* Pods-DSInsetLabel_Tests-acknowledgements.markdown */,
+				B7864A33642E0A25EF5EDED5 /* Pods-DSInsetLabel_Tests-acknowledgements.plist */,
+				ACAA1A3863FF1F9A957C05C5 /* Pods-DSInsetLabel_Tests-dummy.m */,
+				2358CD325474F6FAB8A3F17C /* Pods-DSInsetLabel_Tests-environment.h */,
+				B79E8107E13457DD279FEC6C /* Pods-DSInsetLabel_Tests-frameworks.sh */,
+				0B8D7DF7A3524A944E044B94 /* Pods-DSInsetLabel_Tests-resources.sh */,
+				67683D119BD92649AE557880 /* Pods-DSInsetLabel_Tests-umbrella.h */,
+				1016A96F7059692F0965AF9F /* Pods-DSInsetLabel_Tests.debug.xcconfig */,
+				6B7912A036312020ABD28226 /* Pods-DSInsetLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-DSInsetLabel_Tests";
+			path = "Target Support Files/Pods-DSInsetLabel_Tests";
+			sourceTree = "<group>";
+		};
+		124E2B9B34A1A7526E58C77E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A64D2DA64E64A4C610FCC2E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D8BAE1D67516523C3A0D694 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E93565418DB6D29B2B6B00CB /* DSInsetLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		222B11A3081A55B5DF6FBB43 = {
+			isa = PBXGroup;
+			children = (
+				2C32F1A52EDB83C704DCB5A6 /* Podfile */,
+				1D8BAE1D67516523C3A0D694 /* Development Pods */,
+				124E2B9B34A1A7526E58C77E /* Frameworks */,
+				0096035266B408DC22197432 /* Products */,
+				F25854601B06744657C8DAF3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		6D5A6D5FB9F8D7BE796497DC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				52A48A2956E48FAAF0507A6B /* DSInsetLabel.h */,
+				32892727CE3B4A9905602D4C /* DSInsetLabel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A64D2DA64E64A4C610FCC2E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B1E14296034520E7AE6A94A8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E93565418DB6D29B2B6B00CB /* DSInsetLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0028A3F5CBDB4761ADA41061 /* Pod */,
+				F88BDE2FC6C943D1A8D3FB5D /* Support Files */,
+			);
+			name = DSInsetLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EC25549C6A9E51E3B5BB3EBB /* Pods-DSInsetLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6BC20F9E4C3DCF1D5791068D /* Info.plist */,
+				7466CA647C13F54D51426E66 /* Pods-DSInsetLabel_Example.modulemap */,
+				0A117751DB13DD40B8C4CA61 /* Pods-DSInsetLabel_Example-acknowledgements.markdown */,
+				250BA3879F6A97B54B9C4744 /* Pods-DSInsetLabel_Example-acknowledgements.plist */,
+				475DDB1FEB0835AE1F1B5ACB /* Pods-DSInsetLabel_Example-dummy.m */,
+				A4FEECDD79CA34EA7AE21D28 /* Pods-DSInsetLabel_Example-environment.h */,
+				E212DA6F91C9A0C3A5B021CA /* Pods-DSInsetLabel_Example-frameworks.sh */,
+				EBDFA6D5A97F21F15193A296 /* Pods-DSInsetLabel_Example-resources.sh */,
+				8693BF9856536A15CA07005E /* Pods-DSInsetLabel_Example-umbrella.h */,
+				192C3BDC04369BB48DD33872 /* Pods-DSInsetLabel_Example.debug.xcconfig */,
+				6E1D0D00078901F64D2A20F9 /* Pods-DSInsetLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-DSInsetLabel_Example";
+			path = "Target Support Files/Pods-DSInsetLabel_Example";
+			sourceTree = "<group>";
+		};
+		F25854601B06744657C8DAF3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC25549C6A9E51E3B5BB3EBB /* Pods-DSInsetLabel_Example */,
+				0902335786367C3A25C549B9 /* Pods-DSInsetLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F88BDE2FC6C943D1A8D3FB5D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C5E82F744991B1B4B5F7993 /* Info.plist */,
+				CA7D6170713D85DB25B2A082 /* Info.plist */,
+				C70D8151D47EC14B2D13C95A /* Pods-DSInsetLabel_Example-DSInsetLabel.modulemap */,
+				5F880DCE3F9960646BB7296C /* Pods-DSInsetLabel_Example-DSInsetLabel.xcconfig */,
+				B79FDBE1370948CD999FFA60 /* Pods-DSInsetLabel_Example-DSInsetLabel-Private.xcconfig */,
+				7FED52E0227D2156B66362BF /* Pods-DSInsetLabel_Example-DSInsetLabel-dummy.m */,
+				8F3A1854B35C9FC8F27515B2 /* Pods-DSInsetLabel_Example-DSInsetLabel-prefix.pch */,
+				E68B224521EC513170550E93 /* Pods-DSInsetLabel_Example-DSInsetLabel-umbrella.h */,
+				5872B72FA21E564339CB26CD /* Pods-DSInsetLabel_Tests-DSInsetLabel.modulemap */,
+				E05DC68C8C0E1736FDC0009C /* Pods-DSInsetLabel_Tests-DSInsetLabel.xcconfig */,
+				BBC70BBD9DA9CFAE139B7B66 /* Pods-DSInsetLabel_Tests-DSInsetLabel-Private.xcconfig */,
+				0D3B24834F981DB22A7EBB58 /* Pods-DSInsetLabel_Tests-DSInsetLabel-dummy.m */,
+				DE6882DD04B5D5FA99F766A1 /* Pods-DSInsetLabel_Tests-DSInsetLabel-prefix.pch */,
+				0C48489056E7B20AEFAA29F7 /* Pods-DSInsetLabel_Tests-DSInsetLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-DSInsetLabel_Example-DSInsetLabel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09E62E6C829E8CE7D21AAEFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC248CE9047832502EE2D25 /* DSInsetLabel.h in Headers */,
+				D5A6EEB96B2974CCDD27F096 /* Pods-DSInsetLabel_Tests-DSInsetLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5923651D9F9DBE5B8477798D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931D783765AAE59FB1AF16D2 /* Pods-DSInsetLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1DF1DF6F42547574B574A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091C805B887B863042155B28 /* Pods-DSInsetLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D01FD2E1DC81F85C018EDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6B7EB4958C62144B35DF05 /* DSInsetLabel.h in Headers */,
+				FC5FBD33C7D6EDA5F6394E7E /* Pods-DSInsetLabel_Example-DSInsetLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		43AABE13CFF1F15E47A33C84 /* Pods-DSInsetLabel_Tests-DSInsetLabel-DSInsetLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059E0F1F81EB3E6562705C1B /* Build configuration list for PBXNativeTarget "Pods-DSInsetLabel_Tests-DSInsetLabel-DSInsetLabel" */;
+			buildPhases = (
+				C67D0D89D66E171B311D69D3 /* Sources */,
+				C8309237CDC053A3288F1002 /* Frameworks */,
+				D2B2CA1F966974CCE4702085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DSInsetLabel_Tests-DSInsetLabel-DSInsetLabel";
+			productName = "Pods-DSInsetLabel_Tests-DSInsetLabel-DSInsetLabel";
+			productReference = B92F1F7C8B35E7F92956B001 /* DSInsetLabel.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6FA8EDE2EE729F01834F69A8 /* Pods-DSInsetLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543836DC2DEA9C9B775155A2 /* Build configuration list for PBXNativeTarget "Pods-DSInsetLabel_Example" */;
+			buildPhases = (
+				2370336D7B2D4B93385D94A5 /* Sources */,
+				C00BE11EFF33512125E798B8 /* Frameworks */,
+				5923651D9F9DBE5B8477798D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB91A4FF40E1601A3CA8E0B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-DSInsetLabel_Example";
+			productName = "Pods-DSInsetLabel_Example";
+			productReference = BA657A7393FC61AA5B807E2A /* Pods_DSInsetLabel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DAABF94A480003C29FF8696 /* Pods-DSInsetLabel_Tests-DSInsetLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309217146313E39284BC70E5 /* Build configuration list for PBXNativeTarget "Pods-DSInsetLabel_Tests-DSInsetLabel" */;
+			buildPhases = (
+				9AE411408892399E5BE4491A /* Sources */,
+				9A467AF0C0FA28ABE8DD8243 /* Frameworks */,
+				781EDEAEBA6A46FA2B1B499C /* Resources */,
+				09E62E6C829E8CE7D21AAEFD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274C507925712C64BA170437 /* PBXTargetDependency */,
+			);
+			name = "Pods-DSInsetLabel_Tests-DSInsetLabel";
+			productName = "Pods-DSInsetLabel_Tests-DSInsetLabel";
+			productReference = D9ACBF1514F696398CAEB8E5 /* DSInsetLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2E6CD95EEE5332707CCAD1E /* Pods-DSInsetLabel_Example-DSInsetLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3BEBC5BC05D8146023B13CB /* Build configuration list for PBXNativeTarget "Pods-DSInsetLabel_Example-DSInsetLabel" */;
+			buildPhases = (
+				D56B760442ECEEF32FC2E778 /* Sources */,
+				8B7F7548E5153B775904276F /* Frameworks */,
+				05DA53F048F7F3E53FC9756C /* Resources */,
+				B4D01FD2E1DC81F85C018EDA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E92F6F65A2A5DE4817FD269 /* PBXTargetDependency */,
+			);
+			name = "Pods-DSInsetLabel_Example-DSInsetLabel";
+			productName = "Pods-DSInsetLabel_Example-DSInsetLabel";
+			productReference = 96785ACABD7620431103B8EC /* DSInsetLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE17EE7979542E48C24DCBA2 /* Pods-DSInsetLabel_Example-DSInsetLabel-DSInsetLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F34ED6E9D9FA1341C594160 /* Build configuration list for PBXNativeTarget "Pods-DSInsetLabel_Example-DSInsetLabel-DSInsetLabel" */;
+			buildPhases = (
+				8FDBC83E0CE3A0BAA6D4DC22 /* Sources */,
+				4F13700FD4FC49BE343A4984 /* Frameworks */,
+				3D3802670CDAB515A37B5A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DSInsetLabel_Example-DSInsetLabel-DSInsetLabel";
+			productName = "Pods-DSInsetLabel_Example-DSInsetLabel-DSInsetLabel";
+			productReference = FFBB03AA6E42A4C7872E936F /* DSInsetLabel.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FF6A938FC04E51D2F58287A5 /* Pods-DSInsetLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6016360A90D6D21997A1BD69 /* Build configuration list for PBXNativeTarget "Pods-DSInsetLabel_Tests" */;
+			buildPhases = (
+				5FBAAA37AE0DED537EF44F88 /* Sources */,
+				BFDA5AE224682AF53F7A8340 /* Frameworks */,
+				AF1DF1DF6F42547574B574A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC185D4384C92302ACF4E86 /* PBXTargetDependency */,
+			);
+			name = "Pods-DSInsetLabel_Tests";
+			productName = "Pods-DSInsetLabel_Tests";
+			productReference = F1FB049EE41FEC8294754C4B /* Pods_DSInsetLabel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47FCFA33DD2562511BA28B7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 2ED294D153CA284C1C57F502 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 222B11A3081A55B5DF6FBB43;
+			productRefGroup = 0096035266B408DC22197432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FA8EDE2EE729F01834F69A8 /* Pods-DSInsetLabel_Example */,
+				A2E6CD95EEE5332707CCAD1E /* Pods-DSInsetLabel_Example-DSInsetLabel */,
+				EE17EE7979542E48C24DCBA2 /* Pods-DSInsetLabel_Example-DSInsetLabel-DSInsetLabel */,
+				FF6A938FC04E51D2F58287A5 /* Pods-DSInsetLabel_Tests */,
+				8DAABF94A480003C29FF8696 /* Pods-DSInsetLabel_Tests-DSInsetLabel */,
+				43AABE13CFF1F15E47A33C84 /* Pods-DSInsetLabel_Tests-DSInsetLabel-DSInsetLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05DA53F048F7F3E53FC9756C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A676F957469FA7C7139B9A /* DSInsetLabel.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3802670CDAB515A37B5A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781EDEAEBA6A46FA2B1B499C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31BE71B2143EFD7CB93FDF5 /* DSInsetLabel.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B2CA1F966974CCE4702085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2370336D7B2D4B93385D94A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1092B69EA7494E9E1C672856 /* Pods-DSInsetLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FBAAA37AE0DED537EF44F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B0B34512E9DA19C8E4A6E1 /* Pods-DSInsetLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDBC83E0CE3A0BAA6D4DC22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE411408892399E5BE4491A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB57A92D70D4F7A2A3FEE42 /* DSInsetLabel.m in Sources */,
+				128B8C6A377197271C3B7C21 /* Pods-DSInsetLabel_Tests-DSInsetLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67D0D89D66E171B311D69D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56B760442ECEEF32FC2E778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BB64DD18F1AED1F92528B4 /* DSInsetLabel.m in Sources */,
+				A8112E510249D88D434291B1 /* Pods-DSInsetLabel_Example-DSInsetLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		274C507925712C64BA170437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DSInsetLabel_Tests-DSInsetLabel-DSInsetLabel";
+			target = 43AABE13CFF1F15E47A33C84 /* Pods-DSInsetLabel_Tests-DSInsetLabel-DSInsetLabel */;
+			targetProxy = 8708B3724F13ABF97B6BB5D4 /* PBXContainerItemProxy */;
+		};
+		8BC185D4384C92302ACF4E86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DSInsetLabel_Tests-DSInsetLabel";
+			target = 8DAABF94A480003C29FF8696 /* Pods-DSInsetLabel_Tests-DSInsetLabel */;
+			targetProxy = 8F3FCC40EF257621C7B9FFE3 /* PBXContainerItemProxy */;
+		};
+		8E92F6F65A2A5DE4817FD269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DSInsetLabel_Example-DSInsetLabel-DSInsetLabel";
+			target = EE17EE7979542E48C24DCBA2 /* Pods-DSInsetLabel_Example-DSInsetLabel-DSInsetLabel */;
+			targetProxy = 394395A50CFD73AB502C3AA9 /* PBXContainerItemProxy */;
+		};
+		CB91A4FF40E1601A3CA8E0B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DSInsetLabel_Example-DSInsetLabel";
+			target = A2E6CD95EEE5332707CCAD1E /* Pods-DSInsetLabel_Example-DSInsetLabel */;
+			targetProxy = 7A2CF6FB938F0DB1CE4DFD2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0450B11AF467C5D72C8D9F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC70BBD9DA9CFAE139B7B66 /* Pods-DSInsetLabel_Tests-DSInsetLabel-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DSInsetLabel_Tests-DSInsetLabel/Pods-DSInsetLabel_Tests-DSInsetLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DSInsetLabel_Tests-DSInsetLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DSInsetLabel_Tests-DSInsetLabel/Pods-DSInsetLabel_Tests-DSInsetLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DSInsetLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A30070EA66BC1759DE56A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC70BBD9DA9CFAE139B7B66 /* Pods-DSInsetLabel_Tests-DSInsetLabel-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DSInsetLabel_Tests-DSInsetLabel/Pods-DSInsetLabel_Tests-DSInsetLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DSInsetLabel_Tests-DSInsetLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DSInsetLabel_Tests-DSInsetLabel/Pods-DSInsetLabel_Tests-DSInsetLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DSInsetLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F5C099586F915C122E2193D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1016A96F7059692F0965AF9F /* Pods-DSInsetLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DSInsetLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DSInsetLabel_Tests/Pods-DSInsetLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DSInsetLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		148303649D16C3986566173E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E1D0D00078901F64D2A20F9 /* Pods-DSInsetLabel_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DSInsetLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DSInsetLabel_Example/Pods-DSInsetLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DSInsetLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A29F2FC29632CE21ACAEF8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B79FDBE1370948CD999FFA60 /* Pods-DSInsetLabel_Example-DSInsetLabel-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DSInsetLabel_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DSInsetLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		52A8AACBF44B4406F085C972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E35BF24FA7A926D80AB3F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 192C3BDC04369BB48DD33872 /* Pods-DSInsetLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DSInsetLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DSInsetLabel_Example/Pods-DSInsetLabel_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DSInsetLabel_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		836599CD093060E361842918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9735404FAF6CD100B154D446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7912A036312020ABD28226 /* Pods-DSInsetLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DSInsetLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DSInsetLabel_Tests/Pods-DSInsetLabel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DSInsetLabel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA44ADEEBCF2B4A63ACE03C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC70BBD9DA9CFAE139B7B66 /* Pods-DSInsetLabel_Tests-DSInsetLabel-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DSInsetLabel_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DSInsetLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CF1827CE3DA0D39DAA201023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B79FDBE1370948CD999FFA60 /* Pods-DSInsetLabel_Example-DSInsetLabel-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DSInsetLabel_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DSInsetLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DD7F562BBD518F7859CB8985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B79FDBE1370948CD999FFA60 /* Pods-DSInsetLabel_Example-DSInsetLabel-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DSInsetLabel_Example-DSInsetLabel/Pods-DSInsetLabel_Example-DSInsetLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DSInsetLabel_Example-DSInsetLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DSInsetLabel_Example-DSInsetLabel/Pods-DSInsetLabel_Example-DSInsetLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DSInsetLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6A41530A3AAF1352F705CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC70BBD9DA9CFAE139B7B66 /* Pods-DSInsetLabel_Tests-DSInsetLabel-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DSInsetLabel_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DSInsetLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F3A66B0FB63CBA90456C891D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B79FDBE1370948CD999FFA60 /* Pods-DSInsetLabel_Example-DSInsetLabel-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DSInsetLabel_Example-DSInsetLabel/Pods-DSInsetLabel_Example-DSInsetLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DSInsetLabel_Example-DSInsetLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DSInsetLabel_Example-DSInsetLabel/Pods-DSInsetLabel_Example-DSInsetLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DSInsetLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		059E0F1F81EB3E6562705C1B /* Build configuration list for PBXNativeTarget "Pods-DSInsetLabel_Tests-DSInsetLabel-DSInsetLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A41530A3AAF1352F705CE8 /* Debug */,
+				AA44ADEEBCF2B4A63ACE03C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ED294D153CA284C1C57F502 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836599CD093060E361842918 /* Debug */,
+				52A8AACBF44B4406F085C972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F34ED6E9D9FA1341C594160 /* Build configuration list for PBXNativeTarget "Pods-DSInsetLabel_Example-DSInsetLabel-DSInsetLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1827CE3DA0D39DAA201023 /* Debug */,
+				2A29F2FC29632CE21ACAEF8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		309217146313E39284BC70E5 /* Build configuration list for PBXNativeTarget "Pods-DSInsetLabel_Tests-DSInsetLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0450B11AF467C5D72C8D9F69 /* Debug */,
+				0A30070EA66BC1759DE56A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543836DC2DEA9C9B775155A2 /* Build configuration list for PBXNativeTarget "Pods-DSInsetLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E35BF24FA7A926D80AB3F5E /* Debug */,
+				148303649D16C3986566173E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6016360A90D6D21997A1BD69 /* Build configuration list for PBXNativeTarget "Pods-DSInsetLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F5C099586F915C122E2193D /* Debug */,
+				9735404FAF6CD100B154D446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3BEBC5BC05D8146023B13CB /* Build configuration list for PBXNativeTarget "Pods-DSInsetLabel_Example-DSInsetLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7F562BBD518F7859CB8985 /* Debug */,
+				F3A66B0FB63CBA90456C891D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47FCFA33DD2562511BA28B7C /* Project object */;
+}

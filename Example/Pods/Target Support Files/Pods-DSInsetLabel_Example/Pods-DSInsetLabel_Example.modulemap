@@ -1,0 +1,6 @@
+framework module Pods_DSInsetLabel_Example {
+  umbrella header "Pods-DSInsetLabel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

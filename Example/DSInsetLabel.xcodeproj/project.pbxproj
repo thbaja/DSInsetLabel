@@ -21,7 +21,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DFC9F1E1439948BA592763B4 /* Pods_DSInsetLabel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C5601E78BA5A3BC1D916CA2 /* Pods_DSInsetLabel_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,7 @@
 		148002A8B84032287156D2EF /* Pods_DSInsetLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSInsetLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF0ECABFC116BAF6B6ECE6B /* Pods-DSInsetLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSInsetLabel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DSInsetLabel_Example/Pods-DSInsetLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		45FC3DF07F0EEC4AC82B5539 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* DSInsetLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = DSInsetLabel.app; path = DSInsetLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* DSInsetLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSInsetLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -55,13 +54,12 @@
 		6003F5A5195388D20070C39A /* DSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* DSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = DSInsetLabel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* DSInsetLabel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSInsetLabel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A0F8B8F7AECFA5EEDD4D860A /* DSInsetLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DSInsetLabel.podspec; path = ../DSInsetLabel.podspec; sourceTree = "<group>"; };
 		A55CA48C0FB78CF6528D658A /* Pods-DSInsetLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSInsetLabel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DSInsetLabel_Tests/Pods-DSInsetLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C2FB44955EF53B8AF161F56A /* Pods-DSInsetLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSInsetLabel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DSInsetLabel_Example/Pods-DSInsetLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,8 +117,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* DSInsetLabel.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* DSInsetLabel_Example.app */,
+				6003F5AE195388D20070C39A /* DSInsetLabel_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,7 +141,6 @@
 			children = (
 				6003F59C195388D20070C39A /* DSAppDelegate.h */,
 				6003F59D195388D20070C39A /* DSAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* DSViewController.h */,
 				6003F5A6195388D20070C39A /* DSViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -213,7 +210,7 @@
 			);
 			name = DSInsetLabel_Example;
 			productName = DSInsetLabel;
-			productReference = 6003F58A195388D20070C39A /* DSInsetLabel.app */;
+			productReference = 6003F58A195388D20070C39A /* DSInsetLabel_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* DSInsetLabel_Tests */ = {
@@ -234,7 +231,7 @@
 			);
 			name = DSInsetLabel_Tests;
 			productName = DSInsetLabelTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* DSInsetLabel_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -245,7 +242,7 @@
 			attributes = {
 				CLASSPREFIX = DS;
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "Thomas B. Jacobsen";
+				ORGANIZATIONNAME = "Dry Singleton";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -276,7 +273,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
