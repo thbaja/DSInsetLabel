@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DSInsetLabel_Example', :exclusive => true do
+  pod "DSInsetLabel", :path => "../"
+end
+
+target 'DSInsetLabel_Tests', :exclusive => true do
+  pod "DSInsetLabel", :path => "../"
+
+  
+end
